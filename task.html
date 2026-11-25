@@ -3,51 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Workshop</title>
+    <title>Photo Studio</title>
     <link rel="stylesheet" href="task.css" />
   </head>
+
   <body>
     <header>
-      <h1>Web Workshop</h1>
-      <nav>
-        <ul>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#register">Register</a></li>
-        </ul>
-      </nav>
+      <h1>Photo Studio</h1>
     </header>
 
+    <nav>
+      <ul>
+        <li><a href="#">Nature</a></li>
+        <li><a href="#">Cities</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Travel</a></li>
+      </ul>
+    </nav>
+
     <main>
-      <section id="overview">
-        <h2>Overview</h2>
-        <p>
-          A hands-on day where you build your first
-          <span class="highlight">responsive page</span> from scratch.
-        </p>
-        <p>No experience needed. Bring a laptop and some curiosity.</p>
-      </section>
+      <h2>Latest Shots</h2>
 
-      <section id="schedule">
-        <h2>Schedule</h2>
-        <article class="card">
-          <h3>10:00 Build your first page</h3>
-          <p>HTML structure first, then CSS styling, step by step.</p>
-        </article>
-        <p class="notice">Seats are limited to 30 people.</p>
-      </section>
+      <div class="gallery">
+        <figure class="tile featured">
+          <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+            alt="Beautiful lake surrounded by mountains"
+          />
+          <figcaption>Mountain Escape</figcaption>
+        </figure>
 
-      <section id="register">
-        <span class="badge">Early bird</span>
-        <h2>Register</h2>
-        <p>Reserve your seat before the end of the month.</p>
-        <p><a class="btn" href="#register">Register now</a></p>
-      </section>
+        <figure class="tile">
+          <img
+            src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=800&q=85"
+            alt="Night sky full of stars"
+          />
+          <figcaption>Night Sky</figcaption>
+        </figure>
+
+        <figure class="tile">
+          <img
+            src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=85"
+            alt="New York City buildings at night"
+          />
+          <figcaption>City Lights</figcaption>
+        </figure>
+
+        <figure class="tile">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=85"
+            alt="Beautiful green mountain landscape"
+          />
+          <figcaption>Green Valley</figcaption>
+        </figure>
+
+        <figure class="tile">
+          <img
+            src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=85"
+            alt="Deer standing in a forest"
+          />
+          <figcaption>Wildlife</figcaption>
+        </figure>
+
+        <figure class="tile">
+          <img
+            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=85"
+            alt="Mountain lake with a beautiful reflection"
+          />
+          <figcaption>Mountain Lake</figcaption>
+        </figure>
+
+        <figure class="tile">
+          <img
+            src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=85"
+            alt="Open landscape with mountains and a winding road"
+          />
+          <figcaption>Open Roads</figcaption>
+        </figure>
+      </div>
     </main>
 
     <footer>
-      <p>© 2026 Web Workshop</p>
-      <a class="to-top" href="#">↑ Top</a>
+      <p>© 2026 Photo Studio</p>
     </footer>
   </body>
 </html>
